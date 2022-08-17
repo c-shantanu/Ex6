@@ -1,12 +1,11 @@
-### Task 6 - Summing two integers
-x = int(input("First number: "))
-y = int(input("Second number: "))
 
-result = x + y
+x = int(input("Type your value: "))
 
+if x == 0:
+    x = False
+elif x == 1:
+    x = True
+else:
+    pass
 
-if result >= 15 or result <= 20:
-    result = 20
-print("Calculated sum is ", result)
-
-
+print("Your entered value is now ", x)

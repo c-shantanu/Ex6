@@ -88,16 +88,17 @@ b = input("Second value for b: ")
 print("Before swapping: a =", a)
 print("Before swapping: b =", b)
 
-a,b = b,a
+temp = a
+a = b
+b = temp
 
 print("After swapping: a =", a)
 print("After swapping: b =", b)
 
 ### Task 8 - max and min values
-
-x == float(input("First number: "))
-y == float(input("Second number: "))
-z == float(input("Third number: "))
+x = float(input("First number: "))
+y = float(input("Second number: "))
+z = float(input("Third number: "))
 
 print("The maximum value is ", max(x, y ,z))
 print("The minimum value is ", min(x, y ,z))
